@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "gov.ca.post.lp.mm"
+        versionCode="11" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Mandates Minder</name>
+
+    <description>
+      CA POST MediaBytes provides California law enforcement easy access to short videos from the CA POST Learning Portal: https://lp.post.ca.gov
+	  "Skip Login" gives users access to publicly available videos from CA POST, including "Did you Know?" videos and previews of courses and tools. 
+	  Logged in users will get access to more videos including Case Law Today and Legal Updates. 
+   
+    </description>
+
+    <author href="https://lp.post.ca.gov" email="askltrc@post.ca.gov">
+        Ahlam Alhweiti 
+    </author>
+<!-- If you do not want any permissions to be added to your app, add the
+    following tag to your config.xml; you will still have the INTERNET
+    permission on your app, which PhoneGap requires. -->
+<preference name="permissions" value="none"/>
+
+
+	<!--Default icon; must be this name and be in the root-->
+	<icon src="icon.png" />
+	
+	<!--Android icons -->
+	<icon src="icon_ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icon_mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icon_hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icon_xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<!--iOS icons
+	<icon src="ios_icon.png" gap:platform="ios" width="57" height="57" />
+	<icon src="ios_icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="ios_icon_at_2x.png" gap:platform="ios" width="114" height="114" />
+	-->
+	<!--Default Splash; must be this name and be in the root-->
+	<gap:splash src="splash.png" width="114" height="114" />
+	
+	<!--Android Splash -->
+	<gap:splash src="splash_ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="splash_mdpi.png" gap:platform="android" gap:density="mdpi" />	
+	<gap:splash src="splash_hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="splash_xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<!--iOS Splash
+	<gap:splash src="ios_splash_Default.png" width="320" height="480" />
+	<gap:splash src="ios_splash_2x.png" width="640" height="960" />
+	<gap:splash src="ios_splash_iphone5.png" width="640" height="1136" />
+
+	<gap:splash src="splash.png" width="320" height="480" />
+	<gap:splash src="splash.png" width="640" height="960" />
+	<gap:splash src="splash.png" width="640" height="1136" />-->
+</widget>
